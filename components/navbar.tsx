@@ -3,9 +3,9 @@ import Container from "./container";
 
 function Navbar() {
   return (
-    <div className="py-4">
-      <Container className="flex items-center justify-between">
-        <h2 className="text-2xl font-semibold uppercase md:text-3xl lg:text-4xl">
+    <div className="sticky left-0 top-0 w-full backdrop-blur-md">
+      <Container className="flex h-16 items-center justify-between">
+        <h2 className="text-2xl font-semibold uppercase md:text-3xl">
           Oussama Elhousni
         </h2>
         <div className="flex gap-4">
@@ -22,7 +22,7 @@ function Navbar() {
             </svg>
           </button>
 
-          <button className="hidden rounded-xl bg-orange-500 px-4 py-2 text-center text-white sm:block">
+          <button className="hidden rounded-lg bg-orange-500 px-6 py-2 text-center font-semibold uppercase text-white sm:block">
             Contact
           </button>
         </div>
